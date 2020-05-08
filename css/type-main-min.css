@@ -33,7 +33,7 @@ html {
   border: 0px;
   min-height: 50vh;
   -weight: 800;
-  -family: "RecVF", sans-serif;
+  -family: "Inter.var", sans-serif;
   -variation-settings: "MONO" 0.01, "CASL" 0.01, "slnt" 0, "CRSV" 0, "wght" 800;
   text-align: center;
   width: 100%;

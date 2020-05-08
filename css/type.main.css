@@ -79,7 +79,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: normal;
-  font-family: "RecVF", sans-serif;
+  font-family: "Inter.var", sans-serif;
 }
 
 .d-none-2 {
@@ -520,7 +520,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-variation-settings: "MONO" 1;
   font-size: 12px;
   line-height: 14px;
@@ -629,14 +629,14 @@ body {
   text-align: center;
   transform: translateX(-50%);
   left: 30%;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-variation-settings: "MONO" 1;
 }
 
 #readyForWork .slider-label {
   width: 150px;
   padding: 3px 20px;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-variation-settings: "MONO" 1;
   color: #858585;
   font-weight: 600;
@@ -656,7 +656,7 @@ body {
   color: #d8d8d8;
   font-weight: 800;
   line-height: 350px;
-  font-family: "RecVF", sans-serif;
+  font-family: "Inter.var", sans-serif;
   width: 100%;
   height: 350px;
   position: relative;
@@ -753,14 +753,14 @@ body {
   line-height: 20px;
   position: absolute;
   left: 153px;
-  font-family: "RecVF", sans-serif;
+  font-family: "Inter.var", sans-serif;
   font-weight: 500;
   display: none;
 }
 
 .languages-list {
   background-color: #f8f8f8;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-size: 12px;
   line-height: 20px;
   color: #2e2e2e;
@@ -935,7 +935,7 @@ body {
   text-align: center;
   transform: translateX(-50%);
   left: 30%;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-variation-settings: "MONO" 1;
   line-height: 16px;
 }
@@ -944,7 +944,7 @@ body {
 #readyForWork .slider-label {
   width: 150px;
   padding: 3px 20px;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-variation-settings: "MONO" 1;
   font-size: 12px;
   color: #858585;
@@ -981,7 +981,7 @@ div#truerItalics {
 
 #truerItalics output {
   transform: translateX(-50%) rotate(-90deg);
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-variation-settings: "MONO" 1;
   top: 43px;
 }
@@ -1035,7 +1035,7 @@ div#truerItalics {
   position: absolute;
   font-size: 175px;
   line-height: 100px;
-  font-family: "RecVF", monospace;
+  font-family: "Inter.var", monospace;
 }
 
 #truerItalics .grs-top span,
@@ -1118,7 +1118,7 @@ div#truerItalics {
 }
 
 #robustLayouts .good li {
-  font-family: "RecVF", sans-serif;
+  font-family: "Inter.var", sans-serif;
   font-size: 5.85vw;
   font-variation-settings: "CASL" 0;
   letter-spacing: -0.04em;
@@ -1147,7 +1147,7 @@ div#truerItalics {
 
 #robustLayouts .bad .text,
 #robustLayouts .good .text {
-  font-family: "RecVF", monospace;
+  font-family: "Inter.var", monospace;
   font-variation-settings: "CASL" 0;
   font-size: 12px;
   line-height: 16px;
@@ -1224,7 +1224,7 @@ div#truerItalics {
   color: #e0e0e0;
   text-align: center;
   padding-top: 24px;
-  font-family: "RecVF";
+  font-family: "Inter.var";
   position: relative;
 }
 
@@ -1339,12 +1339,12 @@ div#truerItalics {
 }
 
 ul.sans .rw {
-  font-family: "RecVF", sans-serif;
+  font-family: "Inter.var", sans-serif;
   --mono: 0;
 }
 
 ul.mono .rw {
-  font-family: "RecVF", monospace;
+  font-family: "Inter.var", monospace;
   --mono: 1;
 }
 
@@ -1369,7 +1369,7 @@ ul.casual .rw {
 }
 
 .powerful-table .header {
-  font-family: "RecVF", sans-serif;
+  font-family: "Inter.var", sans-serif;
   font-size: 13px;
   line-height: 16px;
   color: #0050ff;
@@ -1464,7 +1464,7 @@ ul.casual .rw {
 .scroll-on-sm .x-axis,
 .scroll-on-sm .y-axis {
   font-size: 11.5px;
-  font-family: "RecVF", monospace;
+  font-family: "Inter.var", monospace;
   font-weight: 500;
 }
 
@@ -1788,7 +1788,7 @@ ul.casual .rw {
   }
   code {
     color: #7e7e7e;
-    font-family: "RecVF", "Courier New", Courier, monospace;
+    font-family: "Inter.var", "Courier New", Courier, monospace;
     font-variation-settings: "wght" 400, "MONO" 1;
   }
 }
@@ -1968,10 +1968,10 @@ span.cm-comment.cm-header.cm-header-2 {
 }
 
 @font-face {
-  font-family: "RecVF";
+  font-family: "Inter.var";
   font-weight: 300 1000;
   font-style: oblique 0deg 14deg;
-  src: url("/fonts/Inter.var.woff2?v=3.13");
+  src: url("./fonts/Inter.var.woff2?v=3.13");
 }
 
 .lazyload {
