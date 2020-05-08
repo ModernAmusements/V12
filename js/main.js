@@ -192,6 +192,8 @@ bindTapableOption('base-grid', toggleBaseGrid)
 bindTapableOption('inverted', toggleInvertedMode)
 bindTapableOption('size-mode', toggleSizeMode)
 
+/*
+
 function handleKeyPress(key) {
     switch (key) {
         case "d": case "D": toggleDebugMode(); return true
@@ -201,6 +203,8 @@ function handleKeyPress(key) {
     }
     return false
 }
+
+*/
 
 document.addEventListener('keypress', ev => {
     if (!ev.metaKey && !ev.ctrlKey && !ev.altKey && handleKeyPress(ev.key)) {

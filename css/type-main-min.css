@@ -11,18 +11,10 @@ html {
   --accent-on-dark: hsla(211, 100%, 65%, 1);
 }
 
-
-
 @media (max-width: 500px) {
   .hidden--sm {
     display: none !important;
   }
-}
-
-#singleFile .ccs-row {
-  display: grid;
-  grid-template-columns: 196px 196px auto;
-  column-gap: 1rem;
 }
 
 @media (max-width: 500px) {
@@ -69,8 +61,6 @@ html {
 #singleFile input[type="radio"] {
   margin: 0;
 }
-
-
 
 @media (max-width: 500px) {
   #singleFile .controls {
