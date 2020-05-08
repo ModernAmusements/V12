@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>GridWebsite</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/type.main.css" />
+    <link rel="stylesheet" href="/css/type-main-min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="headline">
+        <h2>Jacob Jan Wise</h2>
+      </div>
+      <div class="Invert">
+        <p>Inverted Colors:<span id="inverted-msg">Off</span></p>
+      </div>
+
+      <div class="introduction">
+        <p>
+          A somewhat different approach to sleeve design for the first release
+          of klunk records:
+          <br />
+          <br />
+          A wearable, flat-packed hat which serves as the cover art for the
+          release. This cap fits snuggly within the blank sleeve. 140g
+          transparent vinyl with white labels.
+        </p>
+      </div>
+      <div class="sub-headline">
+        <h4>Contact</h4>
+        <br />
+        <p>
+          j.wise@me.com
+          <br />
+          +31(0)639721282
+          <br />
+          instagram
+          <br />
+          WiseType©
+        </p>
+      </div>
+      <div class="sub-headline-2">
+        <h4>Clients</h4>
+        <br />
+        <p>
+          Typojanchi
+          <br />
+          Raycap
+          <br />
+          United Standard
+          <br />
+          Kitsune
+          <br />
+          Crack Magazine
+          <br />
+          Kaleidoscope
+        </p>
+      </div>
+      <hr />
+    </div>
+
+    <div class="content" style="padding-top: 25px;">
+      <!-- Content -->
+      <div class="work-headline">
+        <h2>Paris is Melting</h2>
+      </div>
+      <div class="work-text">
+        <p>
+          12" EP on Whities Recs.
+          <br />
+          WHYT018
+          <br />
+          <br />
+          Art direction: Alex McCullough
+          <br />
+          Graphic Design: Jacob Wise & Alex McCullough
+          <br />
+          <br />
+          Available on whiti.es
+          <br />
+          <br />
+          2018
+        </p>
+      </div>
+      <!-- Slider -->
+      <div class="work-content">
+        <div class="slider">
+          <img src="content/img/20181114_WHYT018.jpg" />
+          <img src="content/img/20181114_WHYT0182.jpg" />
+        </div>
+        <!-- Counter-->
+        <div class="text__count"></div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="content" style="padding-top: 25px;">
+      <div class="work-headline">
+        <h2>Post Human Typeface</h2>
+      </div>
+      <div class="typo-text">
+        <p>
+          12" EP on Whities Recs.
+          <br />
+          WHYT018
+          <br />
+          <br />
+          Art direction: Alex McCullough
+          <br />
+          Graphic Design: Jacob Wise & Alex McCullough
+          <br />
+          <br />
+          Available on whiti.es
+          <br />
+          <br />
+          2018
+        </p>
+      </div>
+
+      <div class="type-viewer">
+        <div class="" id="singleFile">
+          <input
+            type="text"
+            value="trialSegment"
+            id="controls-result"
+            spellcheck="false"
+            class="input"
+          />
+        </div>
+      </div>
+
+      <div class="controls noWhiteSpace" id="singleFile">
+        <ul class="central-column">
+          <li id="font-size">
+            <div class="ccs-row">
+              <!-- 767.98px -->
+              <div class="css d-none d-md-inline">
+                <span class="property">font-size</span>:
+                <span id="fontSizeResult" contenteditable="true">12vw</span
+                ><span class="hidden--sm">;</span>
+              </div>
+              <!-- <div class="css d-md-none">
+                          <span class="property">font-size</span>: <span id="fontSizeResultSm" contenteditable="true">300px</span><span class="hidden--sm">;</span>
+                      </div> -->
+              <div class="css d-md-none">
+                <span class="property">[size]</span>
+                <span id="fontSizeResultSm" contenteditable="true">32vw</span
+                ><span class="hidden--sm">;</span>
+              </div>
+              <div class="inputs">
+                <input
+                  id="fontSizeSlider"
+                  min="0.5"
+                  max="40"
+                  step="0.01"
+                  value="16"
+                  type="range"
+                />
+              </div>
+            </div>
+          </li>
+
+          <li id="font-weight">
+            <div class="ccs-row">
+              <span class="css">
+                <span class="css d-inline-block"
+                  ><span class="custom-prop hidden--sm">--wght</span
+                  ><span class="hidden--sm">: </span>"<span class="string"
+                    >wght</span
+                  >"
+                  <span id="wghtResult" class="result" contenteditable="true"
+                    >800</span
+                  ><span class="hidden--sm">;</span></span
+                >
+              </span>
+              <span class="inputs"
+                ><input
+                  id="wghtSlider"
+                  min="300"
+                  max="1000"
+                  value="800"
+                  type="range"
+              /></span>
+            </div>
+          </li>
+          <li id="cust-slnt">
+            <div class="ccs-row">
+              <span class="css"
+                ><span class="custom-prop hidden--sm">--slnt</span
+                ><span class="hidden--sm">: </span>"<span class="string"
+                  >slnt</span
+                >"
+                <span id="slntResult" class="result" contenteditable="true"
+                  >0</span
+                ><span class="hidden--sm">;</span></span
+              >
+              <span class="inputs"
+                ><input
+                  id="slntSlider"
+                  min="-15"
+                  max="0"
+                  step=".1"
+                  value="0"
+                  type="range"
+              /></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <div class="content" style="padding-top: 25px;">
+      <div class="headline">
+        <a>Jacob Jan Wise© 2020 All Rights Reserved</a>
+      </div>
+    </div>
+
+    <script src="js/swiper.min.js"></script>
+    <script>
+      $(".work-content").each(function () {
+        var $status = $(this).find(".text__count");
+        var $slider = $(this).find(".slider");
+
+        $slider.on("init reInit afterChange", function (
+          event,
+          slick,
+          currentSlide,
+          nextSlide
+        ) {
+          var i = (currentSlide ? currentSlide : 0) + 1;
+          $status.text(i + "/" + slick.slideCount);
+        });
+
+        $slider.slick({
+          speed: 0,
+          arrows: true,
+          nextArrow: '<div class="slider__next"></div>',
+          prevArrow: '<div class="slider__prev"></div>',
+        });
+      });
+    </script>
+
+    <script>
+      var slider = document.getElementById("range1");
+      var output = document.getElementById("slider2");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      };
+    </script>
+
+    <script>
+      var slider = document.getElementById("range2");
+      var output = document.getElementById("slider1");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      };
+    </script>
+
+    <script type="text/javascript" src="js/main-type.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+  </body>
+</html>
